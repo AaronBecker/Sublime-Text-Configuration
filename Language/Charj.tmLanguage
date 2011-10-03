@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Charj</string>
+	<key>scopeName</key>
+	<string>source.charj</string>
+	<key>fileTypes</key>
+	<array>
+		<string>cj</string>
+	</array>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>keyword.operator.charj</string>
+			<key>match</key>
+			<string>@</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>source.java</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>storage.modifier.charj</string>
+			<key>match</key>
+			<string>\b(entry|readonly|chare|group|node_group|mainchare)\b</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>keyword.control.charj</string>
+			<key>match</key>
+			<string>\b(until|overlap|when)\b</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,8 @@
+{
+	"color_scheme": "Packages/User/Colors/IR_Black.tmTheme",
+	//"color_scheme": "Packages/User/Colors/Tomorrow/Tomorrow-Night-Bright.tmTheme",
+	"font_face": "Consolas",
+	"font_size": 15.0,
+	"draw_indent_guides": false,
+	"rulers": [80]
+}
